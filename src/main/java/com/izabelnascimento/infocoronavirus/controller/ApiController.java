@@ -14,7 +14,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 @AllArgsConstructor
-@CrossOrigin("http://localhost:4200")
 public class ApiController {
 
     private final SubstantivesService substantivesService;

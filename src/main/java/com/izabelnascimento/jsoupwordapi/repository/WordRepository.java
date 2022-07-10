@@ -1,6 +1,6 @@
-package com.izabelnascimento.infocoronavirus.repository;
+package com.izabelnascimento.jsoupwordapi.repository;
 
-import com.izabelnascimento.infocoronavirus.domain.Word;
+import com.izabelnascimento.jsoupwordapi.domain.Word;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

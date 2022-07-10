@@ -1,7 +1,7 @@
-package com.izabelnascimento.infocoronavirus.service;
+package com.izabelnascimento.jsoupwordapi.service;
 
-import com.izabelnascimento.infocoronavirus.domain.Substantive;
-import com.izabelnascimento.infocoronavirus.domain.Word;
+import com.izabelnascimento.jsoupwordapi.domain.Substantive;
+import com.izabelnascimento.jsoupwordapi.domain.Word;
 import lombok.AllArgsConstructor;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

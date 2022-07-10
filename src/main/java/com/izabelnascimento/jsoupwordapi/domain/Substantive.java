@@ -1,4 +1,4 @@
-package com.izabelnascimento.infocoronavirus.domain;
+package com.izabelnascimento.jsoupwordapi.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,16 +6,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.io.Serializable;
-import java.util.List;
 
 @Entity
-@Table(name = "Word")
+@Table(name = "substantive")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Word implements Serializable {
+public class Substantive {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,11 +21,5 @@ public class Word implements Serializable {
 
     @Column
     private String name;
-
-    @Column
-    private Long counter;
-
-    @OneToMany
-    private List<Substantive> substantives;
 
 }

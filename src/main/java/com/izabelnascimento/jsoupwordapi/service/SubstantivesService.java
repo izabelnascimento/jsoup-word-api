@@ -1,6 +1,6 @@
-package com.izabelnascimento.infocoronavirus.service;
+package com.izabelnascimento.jsoupwordapi.service;
 
-import com.izabelnascimento.infocoronavirus.domain.Substantive;
+import com.izabelnascimento.jsoupwordapi.domain.Substantive;
 
 import java.io.IOException;
 import java.util.List;

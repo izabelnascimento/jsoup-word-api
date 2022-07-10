@@ -1,7 +1,7 @@
-package com.izabelnascimento.infocoronavirus.service;
+package com.izabelnascimento.jsoupwordapi.service;
 
-import com.izabelnascimento.infocoronavirus.domain.Word;
-import com.izabelnascimento.infocoronavirus.repository.WordRepository;
+import com.izabelnascimento.jsoupwordapi.domain.Word;
+import com.izabelnascimento.jsoupwordapi.repository.WordRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
